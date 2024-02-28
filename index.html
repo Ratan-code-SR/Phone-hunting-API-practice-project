@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="md:container md:mx-auto">
+<body class="md:container md:mx-auto p-5">
     <header>
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -42,9 +42,17 @@
 
         <!-- search phone section -->
         <section>
+            <h2 class="text-center text-2xl font-bold">Search your phone </h2>
             <div class="flex justify-center items-center m-10">
+
                 <input type="text" placeholder="Search here...." class="input input-bordered w-full max-w-xs" />
-                <button class="btn btn-warning">Search</button>
+                <button onclick="searchButton()" class="btn btn-warning">Search</button>
+            </div>
+        </section>
+        <!-- phone display section -->
+        <section>
+            <div id="display-container" class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5">
+
             </div>
         </section>
     </main>
