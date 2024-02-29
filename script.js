@@ -80,8 +80,8 @@ const showDetailsButton = async (id) => {
 
 
 const displayShowDetailsFunction = (details) => {
-  console.log(details);
-  // const showDetailsContainer = document.getElementById("show-details-container");
+  // console.log(details);
+  const showDetailsContainer = document.getElementById("show-details-container");
   showDetailsContainer.innerHTML = `
   <img src="${details.image}">
   <h3 id="show-details-phone-name" class="font-bold text-lg">${details.name}</h3>
